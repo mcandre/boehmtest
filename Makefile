@@ -1,7 +1,6 @@
-EXECUTABLE = boehmtest
-
 all: boehmtest.c
-	gcc -o $(EXECUTABLE) boehmtest.c -lgc
+	gcc -o boehmtest boehmtest.c -lgc
 
 clean:
-	-rm $(EXECUTABLE)
+	-rm boehmtest
+	-rm boehmtest.exe
