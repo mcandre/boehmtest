@@ -20,7 +20,6 @@
 # EXAMPLE
 
 	$ make
-	$ ./boehmtest
 	Heap size = 131072
 	Heap size = 131072
 	Heap size = 131072
