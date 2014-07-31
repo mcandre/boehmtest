@@ -4,13 +4,20 @@
 
 ### Ubuntu
 
- - libgc-dev
+ - [libgc-dev](http://packages.ubuntu.com/search?keywords=libgc-dev&searchon=names)
 
 ### Mac OS X, Windows
 
  - [Boehm GC](http://www.hpl.hp.com/personal/Hans_Boehm/gc/)
 
-## EXAMPLE
+### Optional
+
+* [cppcheck](http://cppcheck.sourceforge.net/)
+* [splint](http://www.splint.org/)
+* [vera++](https://bitbucket.org/verateam/vera/wiki/Home)
+* [valgrind](http://valgrind.org/)
+
+# EXAMPLE
 
 	$ make
 	$ ./boehmtest
