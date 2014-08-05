@@ -27,7 +27,7 @@
   /*@=onlytrans@*/
 }
 
-/*@shared@*/ /*@null@*/ /*@out@*/ static void * SPLINT_GC_REALLOC(void *ptr, size_t size) /*@*/ {
+/*@shared@*/ /*@null@*/ /*@out@*/ static void * SPLINT_GC_REALLOC(/*@out*/ void *ptr, size_t size) /*@*/ {
   /*@-onlytrans@*/
   return GC_REALLOC(ptr, size);
   /*@=onlytrans@*/
@@ -43,6 +43,7 @@ int main(void) {
     int *q = SPLINT_GC_MALLOC_ATOMIC(sizeof(int));
 
     if (p != NULL && q != NULL) {
+      *p = NULL;
       assert(*p == 0);
       *p = SPLINT_GC_REALLOC(q, 2 * sizeof(int));
 

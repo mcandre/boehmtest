@@ -3,6 +3,4 @@
 +skip-posix-headers
 -preproc
 -exportlocal
--usedef
--compdef
 -unrecog
