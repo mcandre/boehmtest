@@ -3,9 +3,7 @@
 #include <gc.h>
 
 /*
-  boemtest.c
-  Andrew Pennebaker
-  1 Mac 2011
+  Copyright Andrew Pennebaker 2011 - 2014
 
   From Wikipedia.
   http://en.wikipedia.org/wiki/Boehm_garbage_collector#Example
