@@ -16,11 +16,14 @@
 * [splint](http://www.splint.org/)
 * [vera++](https://bitbucket.org/verateam/vera/wiki/Home)
 * [valgrind](http://valgrind.org/)
+* [Python](https://www.python.org/) 2+ (for infer)
 
 # EXAMPLE
 
-	$ make
-	Heap size = 131072
-	Heap size = 131072
-	Heap size = 131072
-	...
+```
+$ make
+Heap size = 131072
+Heap size = 131072
+Heap size = 131072
+...
+```
