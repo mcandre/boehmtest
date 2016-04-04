@@ -2,13 +2,20 @@
 
 ## REQUIREMENTS
 
+* [clang](http://clang.llvm.org/)
+* [cmake](https://cmake.org/)
+
 ### Ubuntu
 
  - [libgc-dev](http://packages.ubuntu.com/search?keywords=libgc-dev&searchon=names)
 
+E.g. `sudo apt-get install clang cmake libgc-dev`
+
 ### Mac OS X, Windows
 
  - [Boehm GC](http://www.hpl.hp.com/personal/Hans_Boehm/gc/)
+
+E.g. `brew install cmake boehmgc`
 
 ### Optional
 
@@ -21,7 +28,9 @@
 # EXAMPLE
 
 ```
-$ make
+$ cmake . && make
+
+$ bin/boehmtest
 Heap size = 131072
 Heap size = 131072
 Heap size = 131072
